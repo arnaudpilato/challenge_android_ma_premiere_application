@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
                 EditText lastName = (EditText)findViewById(R.id.editLastName);
 
                 Context context = getApplicationContext();
-                CharSequence text = "Congratulation" + lastName.getText().toString() + " " + firstName.getText().toString();
+                CharSequence text = "Congratulation " + lastName.getText().toString() + " " + firstName.getText().toString();
                 int duration = Toast.LENGTH_SHORT;
 
                 Toast toast = Toast.makeText(context, text, duration);
